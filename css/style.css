@@ -6,6 +6,7 @@ body {
 }
 h1, h2, h3, h4, h5, h6 {
 	font-weight: 200;
+    color: black ;
 }
 ul {
 	margin: 0;
@@ -108,7 +109,7 @@ a:hover, a:focus, a:active, a:visited {
 
 
 .hero-header {
-	background: #016cc7;
+	background: #ffffff;
 	min-height: 600px;
 	padding: 5em;
 	color: #fff;
@@ -146,21 +147,6 @@ a:hover, a:focus, a:active, a:visited {
     color: #016cc7;
 }
 
-.speakers{
-    background-color: #d10808;
-    color: white;
-
-}
-
-.speakers a {
-
-    color : white;
-}
-
-.speakers a , u {
-    text-decoration: none ;
-}
-
 .speaker .feature {
 	width: 31.333333%;
 	-webkit-transition: all 0.3s;
@@ -192,14 +178,29 @@ ul.speaker-social li a:hover {
 	text-decoration: none;
 }
 a span.ti-facebook {
-	color: black;
+	color: #3b5998;
 }
 a span.ti-twitter-alt {
-	color: white;
+	color: #4099ff;
+}
+
+img.logo {
+    width:100px;
+    height:150px;
+}
+
+.carousel-caption {
+    position: relative;
+    left: auto;
+    right: auto;
+}
+#myCarousel{
+    width: 80%;
+    margin: 0 auto;
 }
 
 .tickets {
-	background-color: white;
+	background-color: #ffffff;
 }
 .tickets .price {
 	font-size: 4em;
